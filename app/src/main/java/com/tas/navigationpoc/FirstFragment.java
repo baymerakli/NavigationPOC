@@ -14,7 +14,7 @@ public class FirstFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.first_fragment,container,false);
         TextView textView = (TextView) rootView.findViewById(R.id.fragmentName);
-        textView.setText("First Fragment");;
+        textView.setText("First Fragment Test");;
 
         return rootView;
     }
